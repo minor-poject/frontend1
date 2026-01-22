@@ -130,10 +130,263 @@ const canteenMenus = {
         { id: 97, name: "Aloo Paratha", price: 60, description: "Flatbread stuffed with potato", nutrition: { protein: "6g", carbs: "40g", fat: "10g" } },
         { id: 98, name: "Chole Kulche", price: 80, description: "Spicy chickpeas with soft bread", nutrition: { protein: "10g", carbs: "45g", fat: "8g" } },
         { id: 99, name: "Sweet Curd", price: 30, description: "Sweetened yogurt", nutrition: { protein: "5g", carbs: "20g", fat: "5g" } }
+    ],
+    // Additional 40 canteens start here
+    "Campus Brew": [
+        { id: 100, name: "Espresso", price: 80, description: "Strong black coffee shot", nutrition: { protein: "1g", carbs: "2g", fat: "0g" } },
+        { id: 101, name: "Cafe Latte", price: 120, description: "Coffee with steamed milk", nutrition: { protein: "6g", carbs: "10g", fat: "5g" } },
+        { id: 102, name: "Croissant", price: 70, description: "Buttery French pastry", nutrition: { protein: "5g", carbs: "25g", fat: "12g" } },
+        { id: 103, name: "Bagel with Cream Cheese", price: 90, description: "Toasted bagel with cream cheese", nutrition: { protein: "8g", carbs: "30g", fat: "10g" } },
+        { id: 104, name: "Fruit Salad", price: 100, description: "Fresh seasonal fruits", nutrition: { protein: "2g", carbs: "20g", fat: "1g" } }
+    ],
+    "Spice Junction": [
+        { id: 105, name: "Chicken Biryani", price: 220, description: "Fragrant rice with chicken and spices", nutrition: { protein: "25g", carbs: "60g", fat: "15g" } },
+        { id: 106, name: "Mutton Rogan Josh", price: 280, description: "Lamb curry in rich gravy", nutrition: { protein: "30g", carbs: "10g", fat: "20g" } },
+        { id: 107, name: "Palak Paneer", price: 180, description: "Cottage cheese in spinach gravy", nutrition: { protein: "15g", carbs: "12g", fat: "10g" } },
+        { id: 108, name: "Naan Basket", price: 150, description: "Assorted Indian breads", nutrition: { protein: "8g", carbs: "40g", fat: "6g" } },
+        { id: 109, name: "Mango Shake", price: 90, description: "Thick mango milkshake", nutrition: { protein: "5g", carbs: "35g", fat: "8g" } }
+    ],
+    "Burger Junction": [
+        { id: 110, name: "Double Cheeseburger", price: 180, description: "Two patties with double cheese", nutrition: { protein: "25g", carbs: "35g", fat: "25g" } },
+        { id: 111, name: "Chicken Burger", price: 160, description: "Crispy chicken burger", nutrition: { protein: "20g", carbs: "30g", fat: "18g" } },
+        { id: 112, name: "Veggie Supreme Burger", price: 140, description: "Burger with veg patty and toppings", nutrition: { protein: "10g", carbs: "35g", fat: "12g" } },
+        { id: 113, name: "Onion Rings", price: 80, description: "Crispy fried onion rings", nutrition: { protein: "3g", carbs: "25g", fat: "10g" } },
+        { id: 114, name: "Chocolate Milkshake", price: 110, description: "Rich chocolate milkshake", nutrition: { protein: "8g", carbs: "40g", fat: "12g" } }
+    ],
+    "Noodle House": [
+        { id: 115, name: "Chicken Chow Mein", price: 170, description: "Stir-fried noodles with chicken", nutrition: { protein: "18g", carbs: "45g", fat: "10g" } },
+        { id: 116, name: "Vegetable Hakka Noodles", price: 140, description: "Chinese style vegetable noodles", nutrition: { protein: "8g", carbs: "50g", fat: "8g" } },
+        { id: 117, name: "Manchow Soup", price: 90, description: "Spicy Chinese soup", nutrition: { protein: "6g", carbs: "15g", fat: "5g" } },
+        { id: 118, name: "Spring Rolls", price: 100, description: "Crispy vegetable spring rolls", nutrition: { protein: "4g", carbs: "20g", fat: "8g" } },
+        { id: 119, name: "Fried Rice", price: 130, description: "Chinese style fried rice", nutrition: { protein: "7g", carbs: "55g", fat: "10g" } }
+    ],
+    "Dosa Point": [
+        { id: 120, name: "Paper Dosa", price: 100, description: "Extra thin and crispy dosa", nutrition: { protein: "5g", carbs: "45g", fat: "8g" } },
+        { id: 121, name: "Rava Dosa", price: 110, description: "Crispy semolina dosa", nutrition: { protein: "6g", carbs: "40g", fat: "10g" } },
+        { id: 122, name: "Onion Uttapam", price: 90, description: "Thick pancake with onions", nutrition: { protein: "7g", carbs: "35g", fat: "6g" } },
+        { id: 123, name: "Sambhar", price: 40, description: "Lentil soup with vegetables", nutrition: { protein: "5g", carbs: "15g", fat: "2g" } },
+        { id: 124, name: "Coconut Chutney", price: 30, description: "Fresh coconut chutney", nutrition: { protein: "2g", carbs: "8g", fat: "10g" } }
+    ],
+    "Juice Bar": [
+        { id: 125, name: "Fresh Orange Juice", price: 70, description: "Freshly squeezed orange juice", nutrition: { protein: "2g", carbs: "25g", fat: "0g" } },
+        { id: 126, name: "Watermelon Juice", price: 60, description: "Refreshing watermelon juice", nutrition: { protein: "1g", carbs: "20g", fat: "0g" } },
+        { id: 127, name: "Mixed Fruit Juice", price: 80, description: "Blend of seasonal fruits", nutrition: { protein: "2g", carbs: "30g", fat: "1g" } },
+        { id: 128, name: "Carrot Juice", price: 65, description: "Fresh carrot juice", nutrition: { protein: "2g", carbs: "18g", fat: "0g" } },
+        { id: 129, name: "Sugarcane Juice", price: 50, description: "Fresh sugarcane juice", nutrition: { protein: "0g", carbs: "35g", fat: "0g" } }
+    ],
+    "Sandwich Corner": [
+        { id: 130, name: "Grilled Cheese Sandwich", price: 90, description: "Toasted sandwich with melted cheese", nutrition: { protein: "12g", carbs: "30g", fat: "15g" } },
+        { id: 131, name: "Club Sandwich", price: 120, description: "Triple decker sandwich", nutrition: { protein: "15g", carbs: "35g", fat: "12g" } },
+        { id: 132, name: "Veggie Delight Sandwich", price: 80, description: "Sandwich with fresh vegetables", nutrition: { protein: "8g", carbs: "25g", fat: "8g" } },
+        { id: 133, name: "Chicken Mayo Sandwich", price: 110, description: "Sandwich with chicken and mayo", nutrition: { protein: "18g", carbs: "28g", fat: "10g" } },
+        { id: 134, name: "Paneer Tikka Sandwich", price: 100, description: "Sandwich with spiced paneer", nutrition: { protein: "15g", carbs: "30g", fat: "12g" } }
+    ],
+    "Ice Cream Parlor": [
+        { id: 135, name: "Vanilla Scoop", price: 50, description: "Classic vanilla ice cream", nutrition: { protein: "3g", carbs: "20g", fat: "10g" } },
+        { id: 136, name: "Chocolate Scoop", price: 60, description: "Rich chocolate ice cream", nutrition: { protein: "4g", carbs: "25g", fat: "12g" } },
+        { id: 137, name: "Strawberry Sundae", price: 90, description: "Ice cream with strawberry sauce", nutrition: { protein: "4g", carbs: "35g", fat: "15g" } },
+        { id: 138, name: "Banana Split", price: 120, description: "Ice cream with banana and toppings", nutrition: { protein: "5g", carbs: "45g", fat: "18g" } },
+        { id: 139, name: "Choco Cone", price: 40, description: "Ice cream in chocolate cone", nutrition: { protein: "3g", carbs: "25g", fat: "10g" } }
+    ],
+    "Momo Point": [
+        { id: 140, name: "Steam Momo", price: 100, description: "Steamed dumplings with filling", nutrition: { protein: "12g", carbs: "25g", fat: "8g" } },
+        { id: 141, name: "Fried Momo", price: 120, description: "Crispy fried dumplings", nutrition: { protein: "12g", carbs: "28g", fat: "15g" } },
+        { id: 142, name: "Chicken Momo", price: 130, description: "Dumplings with chicken filling", nutrition: { protein: "18g", carbs: "25g", fat: "10g" } },
+        { id: 143, name: "Veg Momo", price: 90, description: "Dumplings with vegetable filling", nutrition: { protein: "8g", carbs: "25g", fat: "6g" } },
+        { id: 144, name: "Chilli Momo", price: 140, description: "Momo in spicy chilli sauce", nutrition: { protein: "12g", carbs: "30g", fat: "12g" } }
+    ],
+    "Pav Bhaji Corner": [
+        { id: 145, name: "Special Pav Bhaji", price: 110, description: "Spiced vegetable mash with bread", nutrition: { protein: "8g", carbs: "45g", fat: "15g" } },
+        { id: 146, name: "Cheese Pav Bhaji", price: 130, description: "Pav bhaji with extra cheese", nutrition: { protein: "12g", carbs: "45g", fat: "20g" } },
+        { id: 147, name: "Masala Pav", price: 70, description: "Bread with spicy masala", nutrition: { protein: "5g", carbs: "35g", fat: "10g" } },
+        { id: 148, name: "Paneer Bhaji", price: 150, description: "Bhaji with paneer cubes", nutrition: { protein: "15g", carbs: "30g", fat: "15g" } },
+        { id: 149, name: "Butter Pav", price: 40, description: "Buttery toasted bread", nutrition: { protein: "3g", carbs: "25g", fat: "12g" } }
+    ],
+    "Salad Bar": [
+        { id: 150, name: "Greek Salad", price: 130, description: "Fresh vegetables with feta cheese", nutrition: { protein: "8g", carbs: "15g", fat: "10g" } },
+        { id: 151, name: "Caesar Salad", price: 140, description: "Lettuce with croutons and dressing", nutrition: { protein: "6g", carbs: "20g", fat: "12g" } },
+        { id: 152, name: "Fruit Salad", price: 100, description: "Assorted fresh fruits", nutrition: { protein: "2g", carbs: "25g", fat: "1g" } },
+        { id: 153, name: "Chicken Salad", price: 160, description: "Salad with grilled chicken", nutrition: { protein: "20g", carbs: "10g", fat: "8g" } },
+        { id: 154, name: "Quinoa Salad", price: 150, description: "Quinoa with vegetables", nutrition: { protein: "10g", carbs: "35g", fat: "8g" } }
+    ],
+    "Pizza Palace": [
+        { id: 155, name: "Pepperoni Pizza", price: 250, description: "Pizza with pepperoni slices", nutrition: { protein: "18g", carbs: "40g", fat: "20g" } },
+        { id: 156, name: "Veg Supreme Pizza", price: 220, description: "Pizza with assorted vegetables", nutrition: { protein: "12g", carbs: "45g", fat: "15g" } },
+        { id: 157, name: "BBQ Chicken Pizza", price: 280, description: "Pizza with BBQ chicken", nutrition: { protein: "22g", carbs: "40g", fat: "18g" } },
+        { id: 158, name: "Garlic Bread Sticks", price: 120, description: "Bread sticks with garlic butter", nutrition: { protein: "6g", carbs: "35g", fat: "12g" } },
+        { id: 159, name: "Cheese Garlic Bread", price: 100, description: "Garlic bread with cheese", nutrition: { protein: "10g", carbs: "30g", fat: "15g" } }
+    ],
+    "Chaat Corner": [
+        { id: 160, name: "Papdi Chaat", price: 80, description: "Crispy wafers with chutneys", nutrition: { protein: "5g", carbs: "35g", fat: "12g" } },
+        { id: 161, name: "Aloo Chaat", price: 70, description: "Spiced potato chaat", nutrition: { protein: "3g", carbs: "30g", fat: "8g" } },
+        { id: 162, name: "Raj Kachori", price: 100, description: "Large puri filled with mixtures", nutrition: { protein: "6g", carbs: "40g", fat: "15g" } },
+        { id: 163, name: "Fruit Chaat", price: 90, description: "Fruits with chaat masala", nutrition: { protein: "2g", carbs: "35g", fat: "1g" } },
+        { id: 164, name: "Corn Chaat", price: 80, description: "Spiced corn mixture", nutrition: { protein: "4g", carbs: "25g", fat: "5g" } }
+    ],
+    "Healthy Bites": [
+        { id: 165, name: "Oatmeal Bowl", price: 120, description: "Oats with fruits and nuts", nutrition: { protein: "8g", carbs: "40g", fat: "10g" } },
+        { id: 166, name: "Avocado Salad", price: 150, description: "Fresh avocado with greens", nutrition: { protein: "5g", carbs: "15g", fat: "20g" } },
+        { id: 167, name: "Grilled Fish", price: 200, description: "Grilled fish fillet", nutrition: { protein: "25g", carbs: "2g", fat: "10g" } },
+        { id: 168, name: "Steamed Vegetables", price: 110, description: "Assorted steamed vegetables", nutrition: { protein: "6g", carbs: "20g", fat: "2g" } },
+        { id: 169, name: "Green Smoothie", price: 130, description: "Spinach and fruit smoothie", nutrition: { protein: "4g", carbs: "30g", fat: "2g" } }
+    ],
+    "Tandoori Hut": [
+        { id: 170, name: "Tandoori Chicken", price: 250, description: "Chicken marinated in spices and grilled", nutrition: { protein: "28g", carbs: "5g", fat: "15g" } },
+        { id: 171, name: "Seekh Kebab", price: 180, description: "Minced meat kebabs", nutrition: { protein: "20g", carbs: "8g", fat: "12g" } },
+        { id: 172, name: "Tandoori Roti", price: 30, description: "Whole wheat bread cooked in tandoor", nutrition: { protein: "4g", carbs: "25g", fat: "2g" } },
+        { id: 173, name: "Paneer Tikka", price: 200, description: "Grilled cottage cheese cubes", nutrition: { protein: "18g", carbs: "8g", fat: "12g" } },
+        { id: 174, name: "Fish Tikka", price: 220, description: "Grilled fish pieces", nutrition: { protein: "22g", carbs: "5g", fat: "10g" } }
+    ],
+    "Quick Bites": [
+        { id: 175, name: "Samosa", price: 30, description: "Fried pastry with potato filling", nutrition: { protein: "3g", carbs: "25g", fat: "10g" } },
+        { id: 176, name: "Kachori", price: 35, description: "Fried pastry with lentil filling", nutrition: { protein: "4g", carbs: "28g", fat: "12g" } },
+        { id: 177, name: "Bread Pakora", price: 40, description: "Bread slices dipped in batter and fried", nutrition: { protein: "5g", carbs: "30g", fat: "15g" } },
+        { id: 178, name: "Aloo Tikki", price: 35, description: "Potato patties", nutrition: { protein: "3g", carbs: "25g", fat: "8g" } },
+        { id: 179, name: "Mirchi Bajji", price: 40, description: "Chili fritters", nutrition: { protein: "3g", carbs: "20g", fat: "10g" } }
+    ],
+    "Cold Cafe": [
+        { id: 180, name: "Iced Coffee", price: 90, description: "Chilled coffee with ice", nutrition: { protein: "3g", carbs: "20g", fat: "5g" } },
+        { id: 181, name: "Frozen Yogurt", price: 100, description: "Frozen yogurt with toppings", nutrition: { protein: "6g", carbs: "30g", fat: "5g" } },
+        { id: 182, name: "Smoothie Bowl", price: 130, description: "Thick smoothie in a bowl with toppings", nutrition: { protein: "5g", carbs: "35g", fat: "8g" } },
+        { id: 183, name: "Cold Sandwich", price: 110, description: "Chilled sandwich with fillings", nutrition: { protein: "10g", carbs: "30g", fat: "12g" } },
+        { id: 184, name: "Iced Tea Lemon", price: 60, description: "Cold tea with lemon", nutrition: { protein: "0g", carbs: "18g", fat: "0g" } }
+    ],
+    "Mexican Corner": [
+        { id: 185, name: "Tacos", price: 150, description: "Crispy shells with fillings", nutrition: { protein: "12g", carbs: "30g", fat: "15g" } },
+        { id: 186, name: "Burritos", price: 180, description: "Large wrap with rice and beans", nutrition: { protein: "15g", carbs: "45g", fat: "18g" } },
+        { id: 187, name: "Nachos", price: 130, description: "Tortilla chips with cheese", nutrition: { protein: "8g", carbs: "40g", fat: "20g" } },
+        { id: 188, name: "Quesadilla", price: 160, description: "Grilled tortilla with cheese", nutrition: { protein: "14g", carbs: "35g", fat: "18g" } },
+        { id: 189, name: "Guacamole", price: 90, description: "Avocado dip with spices", nutrition: { protein: "3g", carbs: "10g", fat: "15g" } }
+    ],
+    "Thai Kitchen": [
+        { id: 190, name: "Pad Thai", price: 200, description: "Stir-fried rice noodles", nutrition: { protein: "15g", carbs: "50g", fat: "12g" } },
+        { id: 191, name: "Green Curry", price: 180, description: "Thai green curry with coconut milk", nutrition: { protein: "12g", carbs: "20g", fat: "15g" } },
+        { id: 192, name: "Tom Yum Soup", price: 120, description: "Spicy and sour soup", nutrition: { protein: "8g", carbs: "15g", fat: "8g" } },
+        { id: 193, name: "Spring Rolls", price: 100, description: "Crispy vegetable rolls", nutrition: { protein: "5g", carbs: "25g", fat: "10g" } },
+        { id: 194, name: "Thai Fried Rice", price: 160, description: "Rice with Thai spices", nutrition: { protein: "10g", carbs: "45g", fat: "12g" } }
+    ],
+    "Mediterranean Delight": [
+        { id: 195, name: "Hummus with Pita", price: 130, description: "Chickpea dip with bread", nutrition: { protein: "8g", carbs: "30g", fat: "12g" } },
+        { id: 196, name: "Falafel", price: 120, description: "Fried chickpea balls", nutrition: { protein: "10g", carbs: "25g", fat: "10g" } },
+        { id: 197, name: "Shawarma", price: 150, description: "Wrap with spiced meat", nutrition: { protein: "18g", carbs: "35g", fat: "15g" } },
+        { id: 198, name: "Greek Salad", price: 140, description: "Fresh vegetables with feta", nutrition: { protein: "8g", carbs: "15g", fat: "12g" } },
+        { id: 199, name: "Baba Ganoush", price: 110, description: "Eggplant dip", nutrition: { protein: "4g", carbs: "12g", fat: "10g" } }
+    ],
+    "Korean Kitchen": [
+        { id: 200, name: "Bibimbap", price: 220, description: "Rice bowl with vegetables and egg", nutrition: { protein: "15g", carbs: "55g", fat: "12g" } },
+        { id: 201, name: "Kimchi", price: 80, description: "Fermented spicy cabbage", nutrition: { protein: "3g", carbs: "10g", fat: "1g" } },
+        { id: 202, name: "Korean Fried Chicken", price: 250, description: "Crispy chicken with Korean sauce", nutrition: { protein: "25g", carbs: "30g", fat: "18g" } },
+        { id: 203, name: "Tteokbokki", price: 180, description: "Spicy rice cakes", nutrition: { protein: "8g", carbs: "40g", fat: "5g" } },
+        { id: 204, name: "Bulgogi", price: 240, description: "Marinated grilled beef", nutrition: { protein: "28g", carbs: "15g", fat: "15g" } }
+    ],
+    "Sushi Bar": [
+        { id: 205, name: "California Roll", price: 200, description: "Sushi roll with crab and avocado", nutrition: { protein: "12g", carbs: "35g", fat: "8g" } },
+        { id: 206, name: "Salmon Nigiri", price: 180, description: "Rice topped with salmon", nutrition: { protein: "15g", carbs: "25g", fat: "6g" } },
+        { id: 207, name: "Vegetable Tempura", price: 160, description: "Battered and fried vegetables", nutrition: { protein: "5g", carbs: "30g", fat: "12g" } },
+        { id: 208, name: "Miso Soup", price: 80, description: "Japanese soybean soup", nutrition: { protein: "6g", carbs: "10g", fat: "3g" } },
+        { id: 209, name: "Edamame", price: 90, description: "Steamed soybeans", nutrition: { protein: "12g", carbs: "15g", fat: "8g" } }
+    ],
+    "Breakfast Club": [
+        { id: 210, name: "Pancakes", price: 120, description: "Fluffy pancakes with syrup", nutrition: { protein: "8g", carbs: "45g", fat: "10g" } },
+        { id: 211, name: "Omelette", price: 100, description: "Egg omelette with fillings", nutrition: { protein: "15g", carbs: "5g", fat: "12g" } },
+        { id: 212, name: "French Toast", price: 110, description: "Bread dipped in egg and fried", nutrition: { protein: "10g", carbs: "30g", fat: "12g" } },
+        { id: 213, name: "Breakfast Burrito", price: 130, description: "Wrap with eggs and fillings", nutrition: { protein: "18g", carbs: "35g", fat: "15g" } },
+        { id: 214, name: "Fruit Platter", price: 140, description: "Assorted fresh fruits", nutrition: { protein: "3g", carbs: "35g", fat: "1g" } }
+    ],
+    "Tea House": [
+        { id: 215, name: "Masala Chai", price: 30, description: "Spiced Indian tea", nutrition: { protein: "2g", carbs: "10g", fat: "3g" } },
+        { id: 216, name: "Green Tea", price: 25, description: "Healthy green tea", nutrition: { protein: "0g", carbs: "1g", fat: "0g" } },
+        { id: 217, name: "Herbal Tea", price: 35, description: "Tea with herbal infusion", nutrition: { protein: "0g", carbs: "2g", fat: "0g" } },
+        { id: 218, name: "Biscuits", price: 40, description: "Assorted tea biscuits", nutrition: { protein: "3g", carbs: "25g", fat: "8g" } },
+        { id: 219, name: "Lemon Tea", price: 30, description: "Tea with lemon", nutrition: { protein: "0g", carbs: "8g", fat: "0g" } }
+    ],
+    "Waffle House": [
+        { id: 220, name: "Classic Waffle", price: 100, description: "Traditional Belgian waffle", nutrition: { protein: "6g", carbs: "40g", fat: "12g" } },
+        { id: 221, name: "Blueberry Waffle", price: 120, description: "Waffle with blueberry compote", nutrition: { protein: "6g", carbs: "45g", fat: "12g" } },
+        { id: 222, name: "Choco Chip Waffle", price: 130, description: "Waffle with chocolate chips", nutrition: { protein: "7g", carbs: "50g", fat: "15g" } },
+        { id: 223, name: "Banana Nut Waffle", price: 140, description: "Waffle with banana and nuts", nutrition: { protein: "8g", carbs: "55g", fat: "18g" } },
+        { id: 224, name: "Ice Cream Waffle", price: 150, description: "Waffle with ice cream scoop", nutrition: { protein: "8g", carbs: "60g", fat: "20g" } }
+    ],
+    "Curry Corner": [
+        { id: 225, name: "Chicken Curry", price: 180, description: "Spicy chicken curry", nutrition: { protein: "22g", carbs: "12g", fat: "15g" } },
+        { id: 226, name: "Fish Curry", price: 200, description: "Fish in coconut gravy", nutrition: { protein: "25g", carbs: "10g", fat: "12g" } },
+        { id: 227, name: "Vegetable Curry", price: 140, description: "Mixed vegetable curry", nutrition: { protein: "8g", carbs: "20g", fat: "10g" } },
+        { id: 228, name: "Egg Curry", price: 120, description: "Hard boiled eggs in curry", nutrition: { protein: "15g", carbs: "10g", fat: "12g" } },
+        { id: 229, name: "Mutton Curry", price: 250, description: "Rich mutton curry", nutrition: { protein: "30g", carbs: "12g", fat: "20g" } }
+    ],
+    "Street Food Hub": [
+        { id: 230, name: "Vada Pav", price: 40, description: "Indian burger with potato patty", nutrition: { protein: "5g", carbs: "35g", fat: "10g" } },
+        { id: 231, name: "Frankie Roll", price: 80, description: "Wrap with fillings", nutrition: { protein: "10g", carbs: "30g", fat: "12g" } },
+        { id: 232, name: "Masala Dosa", price: 90, description: "South Indian crepe", nutrition: { protein: "6g", carbs: "45g", fat: "8g" } },
+        { id: 233, name: "Pav Bhaji", price: 100, description: "Spiced vegetable mash", nutrition: { protein: "8g", carbs: "40g", fat: "15g" } },
+        { id: 234, name: "Chole Bhature", price: 120, description: "Chickpea curry with fried bread", nutrition: { protein: "12g", carbs: "55g", fat: "20g" } }
+    ],
+    "Healthy Juice": [
+        { id: 235, name: "Detox Juice", price: 110, description: "Cleansing vegetable juice", nutrition: { protein: "3g", carbs: "25g", fat: "1g" } },
+        { id: 236, name: "Immunity Booster", price: 120, description: "Juice with immunity ingredients", nutrition: { protein: "4g", carbs: "28g", fat: "2g" } },
+        { id: 237, name: "Energy Drink", price: 100, description: "Juice for instant energy", nutrition: { protein: "3g", carbs: "30g", fat: "1g" } },
+        { id: 238, name: "Skin Glow", price: 130, description: "Juice for healthy skin", nutrition: { protein: "4g", carbs: "32g", fat: "2g" } },
+        { id: 239, name: "Digestive Aid", price: 110, description: "Juice for better digestion", nutrition: { protein: "3g", carbs: "26g", fat: "1g" } }
+    ],
+    "Gourmet Kitchen": [
+        { id: 240, name: "Truffle Pasta", price: 280, description: "Pasta with truffle oil", nutrition: { protein: "15g", carbs: "45g", fat: "22g" } },
+        { id: 241, name: "Salmon Steak", price: 320, description: "Grilled salmon fillet", nutrition: { protein: "30g", carbs: "5g", fat: "18g" } },
+        { id: 242, name: "Risotto", price: 250, description: "Creamy Italian rice", nutrition: { protein: "12g", carbs: "50g", fat: "15g" } },
+        { id: 243, name: "Bruschetta", price: 180, description: "Toasted bread with toppings", nutrition: { protein: "6g", carbs: "30g", fat: "10g" } },
+        { id: 244, name: "Chocolate Fondant", price: 160, description: "Warm chocolate dessert", nutrition: { protein: "6g", carbs: "40g", fat: "20g" } }
+    ],
+    "Snack Bar": [
+        { id: 245, name: "French Fries", price: 70, description: "Crispy potato fries", nutrition: { protein: "3g", carbs: "35g", fat: "15g" } },
+        { id: 246, name: "Onion Rings", price: 80, description: "Battered onion rings", nutrition: { protein: "4g", carbs: "30g", fat: "12g" } },
+        { id: 247, name: "Mozzarella Sticks", price: 120, description: "Fried cheese sticks", nutrition: { protein: "12g", carbs: "25g", fat: "18g" } },
+        { id: 248, name: "Chicken Wings", price: 180, description: "Spicy chicken wings", nutrition: { protein: "20g", carbs: "10g", fat: "15g" } },
+        { id: 249, name: "Potato Wedges", price: 90, description: "Seasoned potato wedges", nutrition: { protein: "4g", carbs: "40g", fat: "12g" } }
+    ],
+    "South Indian Delight": [
+        { id: 250, name: "Idli", price: 60, description: "Steamed rice cakes", nutrition: { protein: "6g", carbs: "30g", fat: "2g" } },
+        { id: 251, name: "Vada", price: 50, description: "Fried lentil donut", nutrition: { protein: "5g", carbs: "25g", fat: "10g" } },
+        { id: 252, name: "Sambhar", price: 40, description: "Lentil soup", nutrition: { protein: "5g", carbs: "15g", fat: "3g" } },
+        { id: 253, name: "Coconut Chutney", price: 30, description: "Coconut dip", nutrition: { protein: "2g", carbs: "8g", fat: "10g" } },
+        { id: 254, name: "Filter Coffee", price: 40, description: "South Indian coffee", nutrition: { protein: "2g", carbs: "10g", fat: "5g" } }
+    ],
+    "North Indian Feast": [
+        { id: 255, name: "Butter Chicken", price: 220, description: "Creamy chicken curry", nutrition: { protein: "20g", carbs: "15g", fat: "18g" } },
+        { id: 256, name: "Paneer Makhani", price: 200, description: "Cottage cheese in tomato gravy", nutrition: { protein: "15g", carbs: "12g", fat: "15g" } },
+        { id: 257, name: "Dal Tadka", price: 120, description: "Tempered lentils", nutrition: { protein: "10g", carbs: "20g", fat: "8g" } },
+        { id: 258, name: "Naan", price: 30, description: "Leavened bread", nutrition: { protein: "4g", carbs: "25g", fat: "3g" } },
+        { id: 259, name: "Raita", price: 40, description: "Yogurt with vegetables", nutrition: { protein: "4g", carbs: "8g", fat: "5g" } }
+    ],
+    "Bakery Corner": [
+        { id: 260, name: "Croissant", price: 70, description: "Buttery French pastry", nutrition: { protein: "5g", carbs: "25g", fat: "15g" } },
+        { id: 261, name: "Danish Pastry", price: 80, description: "Sweet filled pastry", nutrition: { protein: "4g", carbs: "30g", fat: "12g" } },
+        { id: 262, name: "Brownie", price: 60, description: "Chocolate brownie", nutrition: { protein: "4g", carbs: "35g", fat: "15g" } },
+        { id: 263, name: "Muffin", price: 50, description: "Sweet baked cake", nutrition: { protein: "3g", carbs: "30g", fat: "10g" } },
+        { id: 264, name: "Bread Loaf", price: 40, description: "Freshly baked bread", nutrition: { protein: "5g", carbs: "35g", fat: "3g" } }
+    ],
+    "Fast Food Express": [
+        { id: 265, name: "Burger Combo", price: 180, description: "Burger with fries and drink", nutrition: { protein: "20g", carbs: "50g", fat: "25g" } },
+        { id: 266, name: "Pizza Slice", price: 100, description: "Large pizza slice", nutrition: { protein: "12g", carbs: "35g", fat: "15g" } },
+        { id: 267, name: "Hot Dog", price: 80, description: "Sausage in bun", nutrition: { protein: "10g", carbs: "25g", fat: "12g" } },
+        { id: 268, name: "French Fries", price: 60, description: "Crispy potato fries", nutrition: { protein: "3g", carbs: "30g", fat: "12g" } },
+        { id: 269, name: "Soft Drink", price: 40, description: "Carbonated beverage", nutrition: { protein: "0g", carbs: "35g", fat: "0g" } }
+    ],
+    "Soup Kitchen": [
+        { id: 270, name: "Tomato Soup", price: 80, description: "Creamy tomato soup", nutrition: { protein: "3g", carbs: "15g", fat: "8g" } },
+        { id: 271, name: "Sweet Corn Soup", price: 90, description: "Soup with sweet corn", nutrition: { protein: "4g", carbs: "20g", fat: "5g" } },
+        { id: 272, name: "Mushroom Soup", price: 100, description: "Cream of mushroom soup", nutrition: { protein: "5g", carbs: "12g", fat: "10g" } },
+        { id: 273, name: "Chicken Noodle Soup", price: 120, description: "Soup with chicken and noodles", nutrition: { protein: "12g", carbs: "18g", fat: "8g" } },
+        { id: 274, name: "Vegetable Soup", price: 80, description: "Mixed vegetable soup", nutrition: { protein: "4g", carbs: "15g", fat: "5g" } }
+    ],
+    "Dessert Paradise": [
+        { id: 275, name: "Chocolate Cake", price: 120, description: "Rich chocolate cake", nutrition: { protein: "6g", carbs: "45g", fat: "20g" } },
+        { id: 276, name: "Cheesecake", price: 140, description: "Creamy cheesecake", nutrition: { protein: "8g", carbs: "35g", fat: "25g" } },
+        { id: 277, name: "Ice Cream Sundae", price: 100, description: "Ice cream with toppings", nutrition: { protein: "5g", carbs: "40g", fat: "15g" } },
+        { id: 278, name: "Brownie with Ice Cream", price: 130, description: "Warm brownie with ice cream", nutrition: { protein: "6g", carbs: "50g", fat: "20g" } },
+        { id: 279, name: "Fruit Tart", price: 110, description: "Pastry with fruit filling", nutrition: { protein: "4g", carbs: "40g", fat: "15g" } }
     ]
 };
 
-// Canteen data with additional details
+// Canteen data with additional details - Updated to 56 canteens
 const canteens = [
     { name: "Captain Cuisine", type: "restaurant", description: "Fine dining experience with international cuisine", timings: "11:00 AM - 10:00 PM", location: "West Campus, Block A", rating: 4 },
     { name: "Utopia", type: "cafe", description: "Cozy cafe perfect for studying and light snacks", timings: "8:00 AM - 11:00 PM", location: "Library Building, Ground Floor", rating: 5 },
@@ -150,7 +403,44 @@ const canteens = [
     { name: "Indian Salt", type: "restaurant", description: "North Indian cuisine with rich gravies and breads", timings: "11:00 AM - 10:30 PM", location: "West Campus, Block C", rating: 5 },
     { name: "Rajwadi Gola", type: "specialty", description: "Refreshing drinks and ice golas", timings: "10:00 AM - 7:00 PM", location: "Sports Complex, Near Pool", rating: 3 },
     { name: "Cafe Bollywood", type: "cafe", description: "Bollywood-themed cafe with Indian fusion food", timings: "9:00 AM - 11:00 PM", location: "Cultural Center", rating: 4 },
-    { name: "Krishna Food Canteen", type: "restaurant", description: "Economical meals for students on a budget", timings: "7:00 AM - 9:00 PM", location: "Hostel Area, Building 5", rating: 4 }
+    { name: "Krishna Food Canteen", type: "restaurant", description: "Economical meals for students on a budget", timings: "7:00 AM - 9:00 PM", location: "Hostel Area, Building 5", rating: 4 },
+    // Additional 40 canteens
+    { name: "Campus Brew", type: "cafe", description: "Premium coffee and breakfast items", timings: "7:00 AM - 9:00 PM", location: "Main Campus, Near Library", rating: 4 },
+    { name: "Spice Junction", type: "restaurant", description: "Authentic Indian spices and flavors", timings: "11:00 AM - 10:30 PM", location: "North Campus, Block D", rating: 5 },
+    { name: "Burger Junction", type: "cafe", description: "Gourmet burgers and shakes", timings: "10:00 AM - 11:00 PM", location: "Food Court, Level 2", rating: 4 },
+    { name: "Noodle House", type: "restaurant", description: "Asian noodles and soups", timings: "11:30 AM - 10:00 PM", location: "East Campus, Food Court", rating: 4 },
+    { name: "Dosa Point", type: "specialty", description: "South Indian dosas and idlis", timings: "7:30 AM - 9:30 PM", location: "South Campus, Block A", rating: 4 },
+    { name: "Juice Bar", type: "specialty", description: "Fresh juices and smoothies", timings: "8:00 AM - 8:00 PM", location: "Sports Complex Entrance", rating: 4 },
+    { name: "Sandwich Corner", type: "cafe", description: "Fresh sandwiches and wraps", timings: "8:00 AM - 9:00 PM", location: "Library Cafe Area", rating: 4 },
+    { name: "Ice Cream Parlor", type: "specialty", description: "Artisanal ice creams and desserts", timings: "10:00 AM - 10:00 PM", location: "Central Plaza", rating: 5 },
+    { name: "Momo Point", type: "specialty", description: "Nepalese dumplings and snacks", timings: "11:00 AM - 9:00 PM", location: "International Food Court", rating: 4 },
+    { name: "Pav Bhaji Corner", type: "specialty", description: "Mumbai street food specials", timings: "12:00 PM - 10:00 PM", location: "West Campus, Food Street", rating: 4 },
+    { name: "Salad Bar", type: "specialty", description: "Healthy salads and bowls", timings: "9:00 AM - 8:00 PM", location: "Gymnasium Area", rating: 4 },
+    { name: "Pizza Palace", type: "restaurant", description: "Wood-fired pizzas and Italian dishes", timings: "11:00 AM - 11:00 PM", location: "Food Court, Level 1", rating: 5 },
+    { name: "Chaat Corner", type: "specialty", description: "Indian street snacks and chaats", timings: "11:00 AM - 9:30 PM", location: "East Campus, Near Garden", rating: 4 },
+    { name: "Healthy Bites", type: "specialty", description: "Nutritious and balanced meals", timings: "8:00 AM - 8:00 PM", location: "Wellness Center", rating: 4 },
+    { name: "Tandoori Hut", type: "restaurant", description: "Clay oven specialties and kebabs", timings: "12:00 PM - 11:00 PM", location: "North Campus, Block E", rating: 5 },
+    { name: "Quick Bites", type: "cafe", description: "Snacks and tea for quick breaks", timings: "7:00 AM - 10:00 PM", location: "Academic Block Corridor", rating: 3 },
+    { name: "Cold Cafe", type: "cafe", description: "Cold beverages and frozen treats", timings: "9:00 AM - 9:00 PM", location: "Poolside Area", rating: 4 },
+    { name: "Mexican Corner", type: "restaurant", description: "Mexican tacos and burritos", timings: "11:00 AM - 10:00 PM", location: "International Cuisine Zone", rating: 4 },
+    { name: "Thai Kitchen", type: "restaurant", description: "Authentic Thai curries and noodles", timings: "11:30 AM - 10:00 PM", location: "Asian Food Court", rating: 5 },
+    { name: "Mediterranean Delight", type: "restaurant", description: "Mediterranean wraps and salads", timings: "10:00 AM - 9:30 PM", location: "International Food Court", rating: 4 },
+    { name: "Korean Kitchen", type: "restaurant", description: "Korean BBQ and traditional dishes", timings: "11:00 AM - 10:00 PM", location: "Asian Food Court", rating: 5 },
+    { name: "Sushi Bar", type: "restaurant", description: "Fresh sushi and Japanese cuisine", timings: "11:30 AM - 9:30 PM", location: "International Cuisine Zone", rating: 5 },
+    { name: "Breakfast Club", type: "cafe", description: "All-day breakfast and brunch", timings: "6:00 AM - 4:00 PM", location: "Main Campus Entrance", rating: 4 },
+    { name: "Tea House", type: "cafe", description: "Wide variety of teas and snacks", timings: "7:00 AM - 10:00 PM", location: "Library Basement", rating: 4 },
+    { name: "Waffle House", type: "specialty", description: "Belgian waffles with toppings", timings: "9:00 AM - 9:00 PM", location: "Food Court, Dessert Section", rating: 5 },
+    { name: "Curry Corner", type: "restaurant", description: "Regional Indian curries", timings: "11:00 AM - 10:00 PM", location: "North Campus, Block F", rating: 4 },
+    { name: "Street Food Hub", type: "specialty", description: "Popular Indian street foods", timings: "10:00 AM - 10:00 PM", location: "Campus Food Street", rating: 4 },
+    { name: "Healthy Juice", type: "specialty", description: "Detox and wellness juices", timings: "8:00 AM - 7:00 PM", location: "Wellness Center Entrance", rating: 4 },
+    { name: "Gourmet Kitchen", type: "restaurant", description: "Fine dining and gourmet dishes", timings: "6:00 PM - 11:00 PM", location: "Premium Dining Area", rating: 5 },
+    { name: "Snack Bar", type: "cafe", description: "Quick snacks and beverages", timings: "8:00 AM - 10:00 PM", location: "Sports Complex Cafe", rating: 3 },
+    { name: "South Indian Delight", type: "restaurant", description: "Traditional South Indian meals", timings: "7:00 AM - 10:00 PM", location: "South Campus, Food Court", rating: 4 },
+    { name: "North Indian Feast", type: "restaurant", description: "Rich North Indian cuisine", timings: "11:00 AM - 10:30 PM", location: "North Campus, Dining Hall", rating: 5 },
+    { name: "Bakery Corner", type: "cafe", description: "Freshly baked goods and pastries", timings: "6:00 AM - 9:00 PM", location: "Main Campus Bakery", rating: 4 },
+    { name: "Fast Food Express", type: "cafe", description: "Quick service fast food", timings: "10:00 AM - 11:00 PM", location: "Student Center Ground Floor", rating: 3 },
+    { name: "Soup Kitchen", type: "specialty", description: "Hearty soups and breads", timings: "11:00 AM - 8:00 PM", location: "Library Cafe Extension", rating: 4 },
+    { name: "Dessert Paradise", type: "specialty", description: "Decadent desserts and sweets", timings: "10:00 AM - 10:00 PM", location: "Food Court, Sweet Zone", rating: 5 }
 ];
 
 // Shopping cart functionality
